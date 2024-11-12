@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "echo starting"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
