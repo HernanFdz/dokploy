@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+  my-serverless-function:
+    runtime: nodejs14
+    handler: index.handler  # The entry point for your function
+    memory: 128
+    timeout: 5
+    routes:
+      - path: /api/custom-path
